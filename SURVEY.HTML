@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FCC:Survey Form</title>
+</head>
+<link rel="stylesheet" type="text/css" href="font.css">
+<body>
+
+<center>
+	<h1>Survey form</h1>
+	<div>
+		<br>
+		<p>		Let us know how we can improve freeCodeCamp</p>
+		<br>
+		<form>
+		<table  >
+		
+		<tr>
+		<td align="right"><label >*Name:&nbsp &nbsp</label></td>
+		<td><input  type="text" name="name" required="" placeholder="Enter your name">
+		</label></td></tr>
+		<td><br></td>
+		<tr>
+
+		<td align="right"><label>*Email:&nbsp &nbsp</td></label>
+		<td ><input type="email" name="email" required="" placeholder="Enter your email"></td></tr>
+		<td><br></td>
+		<tr>
+			
+		<td align="right"><label > *Age:&nbsp &nbsp</td></label>
+		<td ><input type="number" name="Age" min="1" max="125" required="" placeholder="Age" ></td></tr>
+		<td><br></td>
+		<tr><td align="right"><label for="role">Which best option describes your current role?&nbsp &nbsp</label></td>
+		<td><select id="role">
+				<option disabled="">Select an option</option>
+				<option value="Student"selected="Student">
+				Student
+				</option>
+				<option value="Full Time Job">Full Time Job</option>
+				<option value="Full Time Learner">Full Time Learner</option>
+				<option value="Prefer Not To Say">Prefer Not To Say</option>
+				<option value="Other">Other</option>
+			</select>
+		</tr>
+		<td><br></td>
+		<tr>
+			<td align="right"><label>How likwly you would recommend&nbsp &nbsp<br>freeCodeCamp to a friend?&nbsp &nbsp<p></label></td>
+			<td><input type="radio" name="recommend" required="">Definitely<br>
+			<input type="radio" name="recommend" required="">Maybe<br>
+			<input type="radio" name="recommend" required="">Not sure</td>
+
+
+
+
+		</tr>
+		<td><br></td>
+		<tr><td align="right"><label for="role">What do you like most in FCC:&nbsp &nbsp</label></td>
+		<td><select id="like">
+				<option disabled="" selected="">Select an option</option>
+				<option value="challenges">
+				Challenges
+				</option>
+				<option value="Project">Project</option>
+				<option value="Community">Community</option>
+				<option value="Open Source">Open Source</option>
+				
+			</select>
+		</tr>
+		<td><br></td>
+		<tr>
+			<td align="right" valign="top"><label>
+				Things that should be improved in future&nbsp &nbsp<br>(Check all that apply):&nbsp &nbsp<p>
+			</label></td>
+			<td>
+				<input type="Checkbox" name="Front-end Projects">Front-end Projects<br>
+				<input type="Checkbox" name="Back-end Projects">Back-end Projects<br>
+				<input type="Checkbox" name="Data Visualization">Data Visualization<br>
+				<input type="Checkbox" name="Challenges">Challenges<br>
+				<input type="Checkbox" name="Open Source Community">Open Source Community<br>
+				<input type="Checkbox" name="Gitter help rooms">Gitter help rooms<br>
+				<input type="Checkbox" name="Videos">Videos<br>
+				<input type="Checkbox" name="City Meetups">City Meetups<br>
+				<input type="Checkbox" name="Wikki">Wikki<br>
+				<input type="Checkbox" name="Forum">Fourm<br>
+				<input type="Checkbox" name="Additional Cources">Additional Cources<br>
+
+			</td>
+		</tr>
+		<tr>
+			<td align="right" valign="top">
+				<label>Any Comments or Suggestion?&nbsp &nbsp</label>
+			</td>
+			
+			<td><textarea rows="4" cols="40" placeholder="Enter your comment here..."></textarea>  </td>
+		</tr>
+
+		<td><br></td>
+		</table>
+		<button>Submit</button>
+</form>
+	</div>
+</center>
+</body>
+</html>
