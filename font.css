@@ -1,0 +1,25 @@
+body{
+	background:#ccebff ;
+	font-size: 15px;
+	font-style: Monospace	;
+}
+div{
+	background: #ffffff;
+	width: 1000px;
+	height: 750px;
+}
+button{
+	background: #4da6ff;
+	height: 35px;
+	width: 70px;
+}
+label{
+	color: red;
+
+}
+input{
+	color: blue;
+}
+h1{
+	color: cyan;
+}
